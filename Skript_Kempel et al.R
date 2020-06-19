@@ -1,10 +1,10 @@
 ##17/16/2020
 ##Anne Kempel
-##Nationwide re-visitation reveals thousands of local extinctions across the ranges of
+##Code for Kempel et al., Nationwide re-visitation reveals thousands of local extinctions across the ranges of
 ## 713 threatened and rare plant species
 
 #Dataframe needed: Data_Kempel et al.txt
-#Pink Floyd - The Wall
+#(Listened to Pink Floyd - The Wall)
 
 
 library(multcomp)
@@ -233,7 +233,7 @@ ggplot(dat2, aes(x=habitat, y=ex_fit))+
 
 
 
-______________________
+#______________________
 
 ####Code for Figure 2: IUCN Order####
 #use yeardiff_s as covariate
@@ -324,7 +324,7 @@ y<-ggplot(data=eff, aes(x=yeardifnew, y=ex_fit))+
 y
 
 
-__________________________________________________
+#__________________________________________________
 
 #### Model 3: Traits and indicator values ####
 #Grimes C and R, height, all indicator values and yeardif_s. 
